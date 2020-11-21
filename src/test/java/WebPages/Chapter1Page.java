@@ -11,7 +11,6 @@ public class Chapter1Page {
     private WebDriver driver;
 
     //Locators
-
     @FindBy(how = How.LINK_TEXT, using = "Chapter1")
     private WebElement Chapter1Link;
 
