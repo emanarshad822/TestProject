@@ -20,4 +20,6 @@ This uses Chrome as default browser for specs execution. Make sure Chrome is ins
 Clone the repository in your system and import the project in any IDE tool
 Simply by running the testng.xml file the tests will get executed
 
+To execute tests from command line the following commands will be used:
+C:\TestProject> java -cp "path-tojar/testng.jar:path_to_yourtest_classes" org.testng.TestNG testng.xml
 
