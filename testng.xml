@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Book-TheAutomatedTester" parallel="tests">
+
+    <test name="Run All Tests">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Test.Test_cases" />
+        </classes>
+    </test>
+
+</suite>
